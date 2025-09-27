@@ -1,29 +1,40 @@
-<<<<<<< HEAD
-# coginivise - VS Code Security Extension
+# Coginivise - VS Code Extension
 
-A comprehensive VS Code extension that provides real-time security vulnerability detection and secure coding assistance using RAG (Retrieval-Augmented Generation) technology.
+**Coginivise** is a powerful Visual Studio Code extension designed to detect security vulnerabilities in real-time and provide intelligent secure coding guidance using **RAG (Retrieval-Augmented Generation)** technology.
+
+---
 
 ## Features
 
-### 🔒 Security Vulnerability Detection
-- **Hardcoded Secrets**: Detects API keys, passwords, tokens, and credentials
-- **Missing Authorization**: Identifies functions lacking proper authorization checks
-- **SSRF Vulnerabilities**: Detects Server-Side Request Forgery patterns
-- **Outdated Dependencies**: Scans package.json for vulnerable libraries
-- **SQL Injection**: Identifies vulnerable database queries
-- **XSS Vulnerabilities**: Detects Cross-Site Scripting patterns
+### 🔒 Vulnerability Detection
+- **Hardcoded Secrets:** Identifies exposed API keys, passwords, tokens, and credentials.  
+- **Missing Authorization Checks:** Flags functions without proper access control.  
+- **SSRF Detection:** Recognizes Server-Side Request Forgery patterns.  
+- **Outdated Dependencies:** Checks `package.json` for insecure libraries.  
+- **SQL Injection Risks:** Highlights unsafe database queries.  
+- **Cross-Site Scripting (XSS):** Detects potential XSS vulnerabilities.  
 
-### 🤖 AI-Powered Prompt Enhancement
-- **RAG Integration**: Uses secure coding knowledge base for context
-- **LLM Enhancement**: Generates secure coding prompts via Groq API
-- **Local Fallback**: Works offline with intelligent local enhancement
-- **Context-Aware**: Analyzes code patterns for relevant security guidance
+### 🤖 AI-Powered Coding Assistance
+- **RAG-Based Guidance:** Leverages a secure coding knowledge base for context-aware suggestions.  
+- **LLM Integration:** Generates improved secure coding prompts via the Groq API.  
+- **Offline Support:** Provides local fallback for AI guidance without an internet connection.  
+- **Contextual Recommendations:** Evaluates code patterns to provide relevant security tips.  
 
-### ⚡ QuickFix Support
-- **Auto-Fix**: One-click fixes for common security issues
-- **Environment Variables**: Replace hardcoded secrets with env vars
-- **Authorization Templates**: Add security checks to functions
-- **URL Validation**: Insert SSRF protection code
+### ⚡ QuickFix & Automation
+- **One-Click Fixes:** Automatically remediate common security issues.  
+- **Environment Variable Replacement:** Convert hardcoded secrets to environment variables.  
+- **Authorization Templates:** Automatically insert access control checks.  
+- **URL Validation:** Add protection against SSRF attacks.  
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/coginivise.git
+   cd coginivise
+
 
 ## Installation
 
