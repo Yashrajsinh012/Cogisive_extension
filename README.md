@@ -178,5 +178,4 @@ For issues and feature requests, please use the GitHub Issues page.
 - AI-powered prompt enhancement
 - QuickFix support
 =======
-# Cogisive_extension
->>>>>>> e12ddf667e169c8ff2c64a15ac928096c5234f0d
+
